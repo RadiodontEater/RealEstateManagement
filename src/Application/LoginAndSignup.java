@@ -4,6 +4,10 @@
  */
 package Application;
 
+import Library.*;
+import static java.lang.System.out;
+import javax.swing.JTextField;
+
 /**
  *
  * @author Avriy
@@ -19,6 +23,13 @@ public class LoginAndSignup {
         LoginFrame.setVisible(true);
         LoginFrame.pack();
         LoginFrame.setLocationRelativeTo(null);
+        
+        SignUp signup = new SignUp();
+        Account acc = new Account();
+        Account [] accs = new Account[5];
+        
+        //Just testing if name passes
+        System.out.print("Account: " + accs[acc.accountNum]);
     }
     
 }

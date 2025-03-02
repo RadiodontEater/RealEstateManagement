@@ -3,13 +3,38 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Library;
+import Application.*;
+import javax.swing.JTextField;
 
 /**
  *
  * @author Admin
  */
 public class Account {
-    private String Username;
+    SignUp signup = new SignUp();
+    
+    public JTextField Username;
     private String Email;
     private int Password;
+    public static int accountNum;
+
+    
+
+    public void setUsername(JTextField Username) {
+        this.Username = Username;
+    }
+    
+    public JTextField getUsername() {
+        return Username;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public int getPassword() {
+        return Password;
+    }
+    
+    
 }
