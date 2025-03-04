@@ -4,10 +4,29 @@
  */
 package Library;
 
+import Application.*;
+
 /**
  *
  * @author Admin
  */
 public class Lot {
+    int Size;
+    int Price;
+
+    public Lot(int Size, int Price) {
+        this.Size = Size;
+        this.Price = Price;
+    }
+
+    public int getSize() {
+        return Size;
+    }
+
+    public int getPrice() {
+        return Price;
+    }
+
+    
     
 }

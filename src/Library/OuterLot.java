@@ -4,10 +4,13 @@
  */
 package Library;
 
+import Application.*;
+
 /**
  *
  * @author Admin
  */
 public class OuterLot {
+    Sell sell = new Sell();
     
 }

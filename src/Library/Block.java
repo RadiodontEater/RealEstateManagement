@@ -9,5 +9,7 @@ package Library;
  * @author Admin
  */
 public class Block {
+    Lot [] lot = new Lot[20];
+    
     
 }
